@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF632891D61B14C00531BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF632881D61B14C00531BB4 /* main.m */; };
+		BDF6328C1D61B14C00531BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF6328B1D61B14C00531BB4 /* AppDelegate.m */; };
+		BDF6328F1D61B14C00531BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF6328E1D61B14C00531BB4 /* ViewController.m */; };
+		BDF632921D61B14C00531BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF632901D61B14C00531BB4 /* Main.storyboard */; };
+		BDF632941D61B14C00531BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF632931D61B14C00531BB4 /* Assets.xcassets */; };
+		BDF632971D61B14C00531BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF632951D61B14C00531BB4 /* LaunchScreen.storyboard */; };
+		BDF632A21D61B14C00531BB4 /* HYQPaymentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF632A11D61B14C00531BB4 /* HYQPaymentDemoTests.m */; };
+		BDF632AD1D61B14C00531BB4 /* HYQPaymentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF632AC1D61B14C00531BB4 /* HYQPaymentDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF6329E1D61B14C00531BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6327C1D61B14C00531BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF632831D61B14C00531BB4;
+			remoteInfo = HYQPaymentDemo;
+		};
+		BDF632A91D61B14C00531BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6327C1D61B14C00531BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF632831D61B14C00531BB4;
+			remoteInfo = HYQPaymentDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF632841D61B14C00531BB4 /* HYQPaymentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYQPaymentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF632881D61B14C00531BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF6328A1D61B14C00531BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDF6328B1D61B14C00531BB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDF6328D1D61B14C00531BB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDF6328E1D61B14C00531BB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDF632911D61B14C00531BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF632931D61B14C00531BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF632961D61B14C00531BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF632981D61B14C00531BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF6329D1D61B14C00531BB4 /* HYQPaymentDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYQPaymentDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF632A11D61B14C00531BB4 /* HYQPaymentDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYQPaymentDemoTests.m; sourceTree = "<group>"; };
+		BDF632A31D61B14C00531BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF632A81D61B14C00531BB4 /* HYQPaymentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYQPaymentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF632AC1D61B14C00531BB4 /* HYQPaymentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYQPaymentDemoUITests.m; sourceTree = "<group>"; };
+		BDF632AE1D61B14C00531BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF632811D61B14C00531BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6329A1D61B14C00531BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF632A51D61B14C00531BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF6327B1D61B14C00531BB4 = {
+			isa = PBXGroup;
+			children = (
+				BDF632861D61B14C00531BB4 /* HYQPaymentDemo */,
+				BDF632A01D61B14C00531BB4 /* HYQPaymentDemoTests */,
+				BDF632AB1D61B14C00531BB4 /* HYQPaymentDemoUITests */,
+				BDF632851D61B14C00531BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF632851D61B14C00531BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF632841D61B14C00531BB4 /* HYQPaymentDemo.app */,
+				BDF6329D1D61B14C00531BB4 /* HYQPaymentDemoTests.xctest */,
+				BDF632A81D61B14C00531BB4 /* HYQPaymentDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF632861D61B14C00531BB4 /* HYQPaymentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6328A1D61B14C00531BB4 /* AppDelegate.h */,
+				BDF6328B1D61B14C00531BB4 /* AppDelegate.m */,
+				BDF6328D1D61B14C00531BB4 /* ViewController.h */,
+				BDF6328E1D61B14C00531BB4 /* ViewController.m */,
+				BDF632901D61B14C00531BB4 /* Main.storyboard */,
+				BDF632931D61B14C00531BB4 /* Assets.xcassets */,
+				BDF632951D61B14C00531BB4 /* LaunchScreen.storyboard */,
+				BDF632981D61B14C00531BB4 /* Info.plist */,
+				BDF632871D61B14C00531BB4 /* Supporting Files */,
+			);
+			path = HYQPaymentDemo;
+			sourceTree = "<group>";
+		};
+		BDF632871D61B14C00531BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF632881D61B14C00531BB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF632A01D61B14C00531BB4 /* HYQPaymentDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF632A11D61B14C00531BB4 /* HYQPaymentDemoTests.m */,
+				BDF632A31D61B14C00531BB4 /* Info.plist */,
+			);
+			path = HYQPaymentDemoTests;
+			sourceTree = "<group>";
+		};
+		BDF632AB1D61B14C00531BB4 /* HYQPaymentDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF632AC1D61B14C00531BB4 /* HYQPaymentDemoUITests.m */,
+				BDF632AE1D61B14C00531BB4 /* Info.plist */,
+			);
+			path = HYQPaymentDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF632831D61B14C00531BB4 /* HYQPaymentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF632B11D61B14C00531BB4 /* Build configuration list for PBXNativeTarget "HYQPaymentDemo" */;
+			buildPhases = (
+				BDF632801D61B14C00531BB4 /* Sources */,
+				BDF632811D61B14C00531BB4 /* Frameworks */,
+				BDF632821D61B14C00531BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYQPaymentDemo;
+			productName = HYQPaymentDemo;
+			productReference = BDF632841D61B14C00531BB4 /* HYQPaymentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF6329C1D61B14C00531BB4 /* HYQPaymentDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF632B41D61B14C00531BB4 /* Build configuration list for PBXNativeTarget "HYQPaymentDemoTests" */;
+			buildPhases = (
+				BDF632991D61B14C00531BB4 /* Sources */,
+				BDF6329A1D61B14C00531BB4 /* Frameworks */,
+				BDF6329B1D61B14C00531BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF6329F1D61B14C00531BB4 /* PBXTargetDependency */,
+			);
+			name = HYQPaymentDemoTests;
+			productName = HYQPaymentDemoTests;
+			productReference = BDF6329D1D61B14C00531BB4 /* HYQPaymentDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF632A71D61B14C00531BB4 /* HYQPaymentDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF632B71D61B14C00531BB4 /* Build configuration list for PBXNativeTarget "HYQPaymentDemoUITests" */;
+			buildPhases = (
+				BDF632A41D61B14C00531BB4 /* Sources */,
+				BDF632A51D61B14C00531BB4 /* Frameworks */,
+				BDF632A61D61B14C00531BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF632AA1D61B14C00531BB4 /* PBXTargetDependency */,
+			);
+			name = HYQPaymentDemoUITests;
+			productName = HYQPaymentDemoUITests;
+			productReference = BDF632A81D61B14C00531BB4 /* HYQPaymentDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF6327C1D61B14C00531BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sky;
+				TargetAttributes = {
+					BDF632831D61B14C00531BB4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BDF6329C1D61B14C00531BB4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BDF632831D61B14C00531BB4;
+					};
+					BDF632A71D61B14C00531BB4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BDF632831D61B14C00531BB4;
+					};
+				};
+			};
+			buildConfigurationList = BDF6327F1D61B14C00531BB4 /* Build configuration list for PBXProject "HYQPaymentDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF6327B1D61B14C00531BB4;
+			productRefGroup = BDF632851D61B14C00531BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF632831D61B14C00531BB4 /* HYQPaymentDemo */,
+				BDF6329C1D61B14C00531BB4 /* HYQPaymentDemoTests */,
+				BDF632A71D61B14C00531BB4 /* HYQPaymentDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF632821D61B14C00531BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF632971D61B14C00531BB4 /* LaunchScreen.storyboard in Resources */,
+				BDF632941D61B14C00531BB4 /* Assets.xcassets in Resources */,
+				BDF632921D61B14C00531BB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6329B1D61B14C00531BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF632A61D61B14C00531BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF632801D61B14C00531BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6328F1D61B14C00531BB4 /* ViewController.m in Sources */,
+				BDF6328C1D61B14C00531BB4 /* AppDelegate.m in Sources */,
+				BDF632891D61B14C00531BB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF632991D61B14C00531BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF632A21D61B14C00531BB4 /* HYQPaymentDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF632A41D61B14C00531BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF632AD1D61B14C00531BB4 /* HYQPaymentDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF6329F1D61B14C00531BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF632831D61B14C00531BB4 /* HYQPaymentDemo */;
+			targetProxy = BDF6329E1D61B14C00531BB4 /* PBXContainerItemProxy */;
+		};
+		BDF632AA1D61B14C00531BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF632831D61B14C00531BB4 /* HYQPaymentDemo */;
+			targetProxy = BDF632A91D61B14C00531BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF632901D61B14C00531BB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF632911D61B14C00531BB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF632951D61B14C00531BB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF632961D61B14C00531BB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF632AF1D61B14C00531BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF632B01D61B14C00531BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF632B21D61B14C00531BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYQPaymentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sky.HYQPaymentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDF632B31D61B14C00531BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYQPaymentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sky.HYQPaymentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDF632B51D61B14C00531BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYQPaymentDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sky.HYQPaymentDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYQPaymentDemo.app/HYQPaymentDemo";
+			};
+			name = Debug;
+		};
+		BDF632B61D61B14C00531BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYQPaymentDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sky.HYQPaymentDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYQPaymentDemo.app/HYQPaymentDemo";
+			};
+			name = Release;
+		};
+		BDF632B81D61B14C00531BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYQPaymentDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sky.HYQPaymentDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYQPaymentDemo;
+			};
+			name = Debug;
+		};
+		BDF632B91D61B14C00531BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYQPaymentDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sky.HYQPaymentDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYQPaymentDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF6327F1D61B14C00531BB4 /* Build configuration list for PBXProject "HYQPaymentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF632AF1D61B14C00531BB4 /* Debug */,
+				BDF632B01D61B14C00531BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF632B11D61B14C00531BB4 /* Build configuration list for PBXNativeTarget "HYQPaymentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF632B21D61B14C00531BB4 /* Debug */,
+				BDF632B31D61B14C00531BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDF632B41D61B14C00531BB4 /* Build configuration list for PBXNativeTarget "HYQPaymentDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF632B51D61B14C00531BB4 /* Debug */,
+				BDF632B61D61B14C00531BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDF632B71D61B14C00531BB4 /* Build configuration list for PBXNativeTarget "HYQPaymentDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF632B81D61B14C00531BB4 /* Debug */,
+				BDF632B91D61B14C00531BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF6327C1D61B14C00531BB4 /* Project object */;
+}
